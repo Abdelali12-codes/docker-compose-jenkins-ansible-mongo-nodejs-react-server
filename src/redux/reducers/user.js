@@ -6,7 +6,7 @@ const initialState = Immutable.fromJS({
   loading: false
 });
 
-const auth = (state = initialState, action) {
+const auth = (state = initialState, action)=> {
   switch (action.type) {
     case types.SET_USER: {
       return state.set('user', action.data);
