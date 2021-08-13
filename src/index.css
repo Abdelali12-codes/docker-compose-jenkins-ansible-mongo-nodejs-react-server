@@ -1,8 +1,7 @@
 @import "~normalize.css/normalize.css";
 
 body {
-  /* background: #f0f2f5; */
-  background: red;
+  background: #f0f2f5;
 }
 
 #root {
